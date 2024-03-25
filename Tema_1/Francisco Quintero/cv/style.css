@@ -1,0 +1,160 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.header_left h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3a00e0;
+}
+
+.header_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.header_right p {
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  border: 2px solid #3a00e0;
+  height: 2px;
+  width: 100%;
+}
+
+.content {
+  width: 75%;
+}
+
+.title {
+  color: #3a00e0;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 32px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.experience--title {
+  font-size: 16px;
+  color: #3a00e0;
+  font-weight: bold;
+}
+
+.experience--stack {
+  display: flex;
+  gap: 8px;
+}
+
+.experience--stack-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.habilities {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 4px;
+}
+
+.habilities--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.habilities--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #3a00e0;
+  font-weight: bold;
+}
+
+.habilities--level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.studies {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.studies--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.studies--university {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  left: 0px;
+}
+
+.studies--university p {
+  padding: 0px 0 0;
+}
+
+.studies--university-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #3a00e0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.studies--university-description {
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.studies--title {
+  display: flex;
+  font-size: 16px;
+  color: #3a00e0;
+  font-weight: bold;
+}
