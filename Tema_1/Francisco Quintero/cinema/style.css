@@ -4,7 +4,6 @@ section {
 }
 
 .panel-left {
-  height: 100vh;
   padding: 0 !important;
 }
 
@@ -16,7 +15,6 @@ section {
 }
 
 .panel-right {
-  height: 100vh;
   background-color: #090808;
   color: white;
 }
@@ -205,4 +203,34 @@ input[type="checkbox"].active:checked::before {
 .column_number--row2 {
   text-align: center;
   font-size: 6px;
+}
+
+.legend {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.legend_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.legend_item p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.confirm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
 }
