@@ -1,0 +1,72 @@
+body {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background: #1185C1;
+    bottom: 0;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+}
+header {
+    background: #1185C1;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+}
+.cinema__footer__address--email, .cinema__footer__address--tel {
+    color: #ffffff;
+    text-decoration: none;
+}
+.cinema__header--title, .cinema__footer__address, .cinema__screen--title {
+    text-align: center;
+}
+.cinema__screen {
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    border-top-width: 5px;
+    border-top-right-radius: .3em;
+    border-top-left-radius: .3em;
+    height: 50px;
+    margin: auto;
+    transform: perspective(15px) rotateX(-1deg);
+    width: 80%;
+}
+.cinema__seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seat {
+    background-color: #ffffff;
+    border: 1px solid #2f2f2f;
+    width: 3em;
+    height: 3em;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.seat:hover {
+    background-color: #5cb85c;
+}
+.seat:hover.cinema__seats__seats__seat--occupied {
+    background-color: #000000;
+    cursor: not-allowed;
+}
+.seat__map__states .col {
+    margin: 2px;
+    border: #2f2f2f 2px solid;
+}
+.cinema__seats__seats__seat--occupied, .seat__map__states--occupied {
+    background: #000000;
+    color: #ffffff;
+}
+.seat__map__states--free {
+    background: #ffffff;
+}
+.seat__map__states--selected, .cinema__seats__seats__seat--selected {
+    background-color: #5cb85c;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black !important;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    padding: 0.5rem;
+}
+
+p{
+    color:darkgoldenrod;
+    padding: 0.5rem;
+}

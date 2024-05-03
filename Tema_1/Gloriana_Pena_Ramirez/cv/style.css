@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #910808;
+  font-family: "Lato", sans-serif;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #dad7d7;
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
+
+  justify-content: center;
+
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .first-name {
+    font-weight: 700;
+  }
+
+  .last-name {
+    font-weight: 500;
+  }
+
+  img {
+    display: block;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: #910808 solid 3px;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .email,
+  .phone {
+    color: #910808;
+    font-weight: 500;
+  }
+
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #910808;
+    margin: 0px 10px;
+  }
+
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #910808;
+  }
+}
+
+.details {
+  line-height: 20px;
+
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .section:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .section__title {
+    letter-spacing: 2px;
+    color: #910808;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .section__list-item {
+    margin-bottom: 40px;
+  }
+
+  .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .left,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    text-align: right;
+    width: 39%;
+  }
+
+}
+
+footer {
+  display: flex;
+  padding: 10px 5px;
+  background-color: #e16d6d;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+footer p {
+  flex: 1;
+  margin: 0;
+}
+
+footer ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}

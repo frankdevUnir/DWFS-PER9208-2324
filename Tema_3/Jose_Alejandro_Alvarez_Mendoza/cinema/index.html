@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Cinema UNIR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="cinema.js"></script>
+</head>
+<body>
+<header id="cinema-header" class="cinema__header">
+    <h1 class="cinema__header--title display-4">Cinema UNIR</h1>
+</header>
+<section id="cinema-content" class="container text-center">
+    <div id="seats-map" class="seat__map pb-4">
+        <div class="seat__map__title">
+            <h3>Selecciona tus asientos</h3>
+        </div>
+        <div class="row seat__map__states">
+            <div class="col seat__map__states--free">Libre</div>
+            <div class="col seat__map__states--occupied">Ocupado</div>
+            <div class="col seat__map__states--selected">Seleccionado</div>
+        </div>
+    </div>
+
+    <div id="cinema-screen" class="cinema__screen">
+        <p class="cinema__screen--title">Pantalla</p>
+    </div>
+
+    <div id="cinema-seats" class="pt-4 cinema__seats">
+        <div class="cinema__seats__seats row">
+            <div class="col">A</div>
+            <div class="seat cinema__seats__seats__seat--occupied">1</div>
+            <div class="seat cinema__seats__seats__seat--occupied">2</div>
+            <div class="seat cinema__seats__seats__seat--occupied">3</div>
+            <div class="seat cinema__seats__seats__seat--occupied">4</div>
+            <div class="seat">5</div>
+            <div class="seat">6</div>
+            <div class="seat">7</div>
+            <div class="seat">8</div>
+            <div class="seat">9</div>
+            <div class="seat">10</div>
+        </div>
+        <div class="seats__seat row">
+            <div class="col">B</div>
+            <div class="seat">1</div>
+            <div class="seat">2</div>
+            <div class="seat">3</div>
+            <div class="seat cinema__seats__seats__seat--selected">4</div>
+            <div class="seat cinema__seats__seats__seat--selected">5</div>
+            <div class="seat cinema__seats__seats__seat--selected">6</div>
+            <div class="seat">7</div>
+            <div class="seat">8</div>
+            <div class="seat">9</div>
+            <div class="seat">10</div>
+        </div>
+        <div class="seats__seat row">
+            <div class="col">C</div>
+            <div class="seat">1</div>
+            <div class="seat">2</div>
+            <div class="seat">3</div>
+            <div class="seat">4</div>
+            <div class="seat cinema__seats__seats__seat--occupied">5</div>
+            <div class="seat cinema__seats__seats__seat--occupied">6</div>
+            <div class="seat cinema__seats__seats__seat--occupied">7</div>
+            <div class="seat">8</div>
+            <div class="seat">9</div>
+            <div class="seat">10</div>
+        </div>
+        <div class="seats__seat row">
+            <div class="col">D</div>
+            <div class="seat">1</div>
+            <div class="seat">2</div>
+            <div class="seat">3</div>
+            <div class="seat">4</div>
+            <div class="seat">5</div>
+            <div class="seat">6</div>
+            <div class="seat">7</div>
+            <div class="seat">8</div>
+            <div class="seat">9</div>
+            <div class="seat">10</div>
+        </div>
+    </div>
+    <div class="cinema__seats__info">
+        <div class="cinema__seats__info__selected__seats p-3">
+            <label for="cinema-seats-qty">Asientos seleccionados</label>
+            <input id="cinema-seats-qty" class="cinema__seats__info__selected__seats--qty" type="number" oninput="suggest()">
+        </div>
+        <button class="cinema__seats__info--success btn btn-success">Reservar</button>
+        <button class="cinema__seats__info--cancel btn btn-danger">Cancelar</button>
+    </div>
+</section>
+<footer id="cinema-footer">
+    <address class="cinema__footer__address m-4">
+        Cine UNIR-CINEMA<br>
+        Dirección: Calle Avenida de la Paz, 137. Logroño.<br>
+        Teléfono: <a class="cinema__footer__address--tel" href="tel:941209743">941209743</a><br>
+        Email: <a class="cinema__footer__address--email" href="mailto:cinefullstack@unircinema.com">cinefullstack@unircinema.com</a>
+    </address>
+</footer>
+</body>
+</html>

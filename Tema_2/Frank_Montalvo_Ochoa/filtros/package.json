@@ -1,0 +1,19 @@
+{
+  "name": "filtro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actividad.js",
+  "scripts": {
+    "start": "node actividad.js"
+  },
+  "keywords": [],
+  "author": "Frank Montalvo Ochoa",
+  "license": "MIT",
+  "dependencies": {
+    "deasync": "^0.1.29",
+    "fs": "0.0.1-security",
+    "get-pixels": "^3.3.3",
+    "ndarray": "^1.0.19",
+    "save-pixels": "^2.3.6"
+  }
+}

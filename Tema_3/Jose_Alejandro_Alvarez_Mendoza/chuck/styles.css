@@ -1,0 +1,26 @@
+body {
+    background: #0a2451;
+    margin: 0;
+    padding: 0;
+}
+
+.chiste__header--title {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline #ffc107;
+}
+
+#chuck-chistes {
+    align-items: center;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.chuck__chistes__chiste--chiste {
+    color: #ffc107;
+    margin-left: 20px;
+}
+
+.btn.btn-light {
+    border: 3px solid #ffc107;
+}

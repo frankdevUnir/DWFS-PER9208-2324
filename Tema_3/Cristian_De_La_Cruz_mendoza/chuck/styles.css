@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+#botonChiste {
+    margin-right: 20px;
+    font-size: 20px;
+}
+p {
+    color: yellow;
+    font-size: 20px;
+}
