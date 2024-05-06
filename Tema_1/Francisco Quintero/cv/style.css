@@ -35,6 +35,11 @@
   padding: 0;
 }
 
+.date_experience {
+  color: black;
+  font-weight: 400;
+}
+
 .separator {
   border: 2px solid #3a00e0;
   height: 2px;
