@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "The Hunger Games: The Ballad of Songbirds and Snakes",
+    "genre": "Action, Adventure, Drama",
+    "releaseYear": 2023,
+    "director": "Francis Lawrence",
+    "cast": [
+      "Rachel Zegler",
+      "Tom Blyth",
+      "Viola Davis",
+      "Peter Dinklage",
+      "Woody Harrelson"
+    ],
+    "rating": 6.8,
+    "image_url": "[1](https://www.imdb.com/title/tt10545296/)"
+  },
+  {
+    "id": 2,
+    "title": "Barbie",
+    "genre": "Comedy, Adventure, Fantasy",
+    "releaseYear": 2023,
+    "director": "Greta Gerwig",
+    "cast": [
+      "Margot Robbie",
+      "Ryan Gosling",
+      "America Ferrera",
+      "Simu Liu",
+      "Kate McKinnon"
+    ],
+    "rating": 6.8,
+    "image_url": "[6](https://www.imdb.com/title/tt1517268/)"
+  },
+  {
+    "id": 3,
+    "title": "Shazam! Fury of the Gods",
+    "genre": "Action, Adventure, Comedy",
+    "releaseYear": 2023,
+    "director": "David F. Sandberg",
+    "cast": [
+      "Zachary Levi",
+      "Asher Angel",
+      "Jack Dylan Grazer",
+      "Rachel Zegler"
+    ],
+    "rating": 5.9,
+    "image_url": "[11](https://www.imdb.com/title/tt10151854/)"
+  },
+  {
+    "id": 4,
+    "title": "IF",
+    "genre": "Comedy, Drama, Family, Fantasy",
+    "releaseYear": 2024,
+    "director": "John Krasinski",
+    "cast": [
+      "Ryan Reynolds",
+      "John Krasinski",
+      "Cailey Fleming",
+      "Steve Carell"
+    ],
+    "rating": "N/A",
+    "image_url": "[16](https://www.imdb.com/title/tt11152168/)"
+  }
+]
